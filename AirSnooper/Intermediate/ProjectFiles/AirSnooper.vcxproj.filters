@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AirSnooper.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C0FC15F9-F1F9-4F32-BDD2-8CB89DE628EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AirSnooper.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AirSnooperEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8AF0EE13-905A-4EF8-B618-8A83B345C537}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AirSnooper">
+      <UniqueIdentifier>{836822F3-A69F-43F2-85C9-8AB56481FB94}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AirSnooper\AirSnooper.Build.cs">
+      <Filter>Source\AirSnooper</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AirSnooper\AirSnooper.cpp">
+      <Filter>Source\AirSnooper</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AirSnooper\AirSnooper.h">
+      <Filter>Source\AirSnooper</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AirSnooper\AirSnooperCharacter.cpp">
+      <Filter>Source\AirSnooper</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AirSnooper\AirSnooperCharacter.h">
+      <Filter>Source\AirSnooper</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AirSnooper\AirSnooperGameMode.cpp">
+      <Filter>Source\AirSnooper</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AirSnooper\AirSnooperGameMode.h">
+      <Filter>Source\AirSnooper</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AirSnooper\AirSnooperPlayerController.cpp">
+      <Filter>Source\AirSnooper</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AirSnooper\AirSnooperPlayerController.h">
+      <Filter>Source\AirSnooper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
