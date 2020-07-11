@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeAirSnooper_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x7D50FD7F,
+				0xBB7B74B2,
 				0x22C059CD,
 				METADATA_PARAMS(nullptr, 0)
 			};

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AirSnooper.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C0FC15F9-F1F9-4F32-BDD2-8CB89DE628EF}</UniqueIdentifier>
+      <UniqueIdentifier>{7A12D007-B404-41A1-AC65-03DF1D1440A1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AirSnooper.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8AF0EE13-905A-4EF8-B618-8A83B345C537}</UniqueIdentifier>
+      <UniqueIdentifier>{6BE782B8-D560-402B-AA2E-92BE20A36B8D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AirSnooper">
-      <UniqueIdentifier>{836822F3-A69F-43F2-85C9-8AB56481FB94}</UniqueIdentifier>
+      <UniqueIdentifier>{7EF190C9-3FDF-4B7D-8F0B-DD670F3545DF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AirSnooper\AirSnooper.Build.cs">
       <Filter>Source\AirSnooper</Filter>

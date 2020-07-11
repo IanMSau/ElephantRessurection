@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "AirSnooper",
-			"Path": "D:\\Desktop\\polterheist\\project\\ElephantRessurection\\AirSnooper\\Source\\AirSnooper.Target.cs",
+			"Path": "C:\\Users\\Tyler\\Desktop\\GMTK2020\\ElephantRessurection\\AirSnooper\\Source\\AirSnooper.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "AirSnooperEditor",
-			"Path": "D:\\Desktop\\polterheist\\project\\ElephantRessurection\\AirSnooper\\Source\\AirSnooperEditor.Target.cs",
+			"Path": "C:\\Users\\Tyler\\Desktop\\GMTK2020\\ElephantRessurection\\AirSnooper\\Source\\AirSnooperEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

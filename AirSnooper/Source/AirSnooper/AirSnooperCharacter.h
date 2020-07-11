@@ -24,6 +24,9 @@ public:
 	/** Returns CursorToWorld subobject **/
 	FORCEINLINE class UDecalComponent* GetCursorToWorld() { return CursorToWorld; }
 
+	UPROPERTY(EditAnywhere, Category = "Character")
+  int m_PlayerCurrentHealth{ 0 };
+
 private:
 	/** Top down camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
