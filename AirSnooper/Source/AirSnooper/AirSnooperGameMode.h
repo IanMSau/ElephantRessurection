@@ -21,7 +21,7 @@ public:
   bool TimeStarted{ false };
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Game Mode Stats", meta = (AllowPrivateAccess = "true"))
-  int TargetScore{ 1000 };
+  int TargetScore{ 250 };
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Game Mode Stats", meta = (AllowPrivateAccess = "true"))
   int CurrentScore{ 0 };
