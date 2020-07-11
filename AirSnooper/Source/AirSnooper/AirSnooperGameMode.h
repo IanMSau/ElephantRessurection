@@ -13,6 +13,18 @@ class AAirSnooperGameMode : public AGameModeBase
 
 public:
 	AAirSnooperGameMode();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Game Mode Stats", meta = (AllowPrivateAccess = "true"))
+  float LevelTimer{ 100.0f };
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Game Mode Stats", meta = (AllowPrivateAccess = "true"))
+  bool TimeStarted{ false };
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Game Mode Stats", meta = (AllowPrivateAccess = "true"))
+  int TargetScore{ 1000 };
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Game Mode Stats", meta = (AllowPrivateAccess = "true"))
+  int CurrentScore{ 0 };
 };
 
 

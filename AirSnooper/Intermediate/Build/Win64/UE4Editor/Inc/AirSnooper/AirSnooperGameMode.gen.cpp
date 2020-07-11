@@ -31,6 +31,24 @@ void EmptyLinkFunctionForGeneratedCodeAirSnooperGameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentScore_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_CurrentScore;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetScore_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TargetScore;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TimeStarted_MetaData[];
+#endif
+		static void NewProp_TimeStarted_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_TimeStarted;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LevelTimer_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LevelTimer;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +64,48 @@ void EmptyLinkFunctionForGeneratedCodeAirSnooperGameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_CurrentScore_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Game Mode Stats" },
+		{ "ModuleRelativePath", "AirSnooperGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_CurrentScore = { "CurrentScore", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAirSnooperGameMode, CurrentScore), METADATA_PARAMS(Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_CurrentScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_CurrentScore_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TargetScore_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Game Mode Stats" },
+		{ "ModuleRelativePath", "AirSnooperGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TargetScore = { "TargetScore", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAirSnooperGameMode, TargetScore), METADATA_PARAMS(Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TargetScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TargetScore_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TimeStarted_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Game Mode Stats" },
+		{ "ModuleRelativePath", "AirSnooperGameMode.h" },
+	};
+#endif
+	void Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TimeStarted_SetBit(void* Obj)
+	{
+		((AAirSnooperGameMode*)Obj)->TimeStarted = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TimeStarted = { "TimeStarted", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AAirSnooperGameMode), &Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TimeStarted_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TimeStarted_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TimeStarted_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_LevelTimer_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Game Mode Stats" },
+		{ "ModuleRelativePath", "AirSnooperGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_LevelTimer = { "LevelTimer", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAirSnooperGameMode, LevelTimer), METADATA_PARAMS(Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_LevelTimer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_LevelTimer_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAirSnooperGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_CurrentScore,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TargetScore,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_TimeStarted,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAirSnooperGameMode_Statics::NewProp_LevelTimer,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAirSnooperGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAirSnooperGameMode>::IsAbstract,
 	};
@@ -55,11 +115,11 @@ void EmptyLinkFunctionForGeneratedCodeAirSnooperGameMode() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AAirSnooperGameMode_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AAirSnooperGameMode_Statics::PropPointers),
 		0,
 		0x008802ACu,
 		METADATA_PARAMS(Z_Construct_UClass_AAirSnooperGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AAirSnooperGameMode_Statics::Class_MetaDataParams))
@@ -73,7 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeAirSnooperGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAirSnooperGameMode, 3996216868);
+	IMPLEMENT_CLASS(AAirSnooperGameMode, 1331875022);
 	template<> AIRSNOOPER_API UClass* StaticClass<AAirSnooperGameMode>()
 	{
 		return AAirSnooperGameMode::StaticClass();
