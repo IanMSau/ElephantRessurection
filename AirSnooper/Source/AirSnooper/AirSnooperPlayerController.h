@@ -14,6 +14,8 @@ class AAirSnooperPlayerController : public APlayerController
 public:
 	AAirSnooperPlayerController();
 
+	bool underControl;
+
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
@@ -28,6 +30,10 @@ protected:
 
 	/** Navigate player to the current mouse cursor location. */
 	void MoveToMouseCursor();
+
+	void ToggleControl();
+
+	void StopMovement();
 
 	/** Navigate player to the current touch location. */
 	void MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location);
