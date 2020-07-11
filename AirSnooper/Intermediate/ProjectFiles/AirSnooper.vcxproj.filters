@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AirSnooper.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C0FC15F9-F1F9-4F32-BDD2-8CB89DE628EF}</UniqueIdentifier>
+      <UniqueIdentifier>{8C4CE212-47AF-443A-9A09-4E27236A6AC1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AirSnooper.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8AF0EE13-905A-4EF8-B618-8A83B345C537}</UniqueIdentifier>
+      <UniqueIdentifier>{6A7D0C4C-87C1-436F-A9DF-03FE998EB85F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AirSnooper">
-      <UniqueIdentifier>{836822F3-A69F-43F2-85C9-8AB56481FB94}</UniqueIdentifier>
+      <UniqueIdentifier>{D4140C25-0704-4CA3-857A-CAECBD06DB0F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AirSnooper\AirSnooper.Build.cs">
       <Filter>Source\AirSnooper</Filter>
@@ -57,6 +57,12 @@
       <Filter>Source\AirSnooper</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AirSnooper\AirSnooperPlayerController.h">
+      <Filter>Source\AirSnooper</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AirSnooper\BaseGhostHunter.cpp">
+      <Filter>Source\AirSnooper</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AirSnooper\BaseGhostHunter.h">
       <Filter>Source\AirSnooper</Filter>
     </ClInclude>
   </ItemGroup>

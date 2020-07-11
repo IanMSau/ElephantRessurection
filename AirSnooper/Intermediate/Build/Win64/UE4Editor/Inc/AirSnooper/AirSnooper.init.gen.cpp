@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeAirSnooper_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x7D50FD7F,
-				0x22C059CD,
+				0xB6ED8501,
+				0xDE083E34,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
