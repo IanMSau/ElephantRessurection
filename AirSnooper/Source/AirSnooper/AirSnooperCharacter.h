@@ -23,12 +23,8 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns CursorToWorld subobject **/
 	FORCEINLINE class UDecalComponent* GetCursorToWorld() { return CursorToWorld; }
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player Stats", meta = (AllowPrivateAccess = "true"))
-  int PlayerHealth{ 5 };
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player Stats", meta = (AllowPrivateAccess = "true"))
-  int PlayerSanity{ 5 };
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "ZZZ")
+	void updateControl(bool control);
 
 private:
 	/** Top down camera */
