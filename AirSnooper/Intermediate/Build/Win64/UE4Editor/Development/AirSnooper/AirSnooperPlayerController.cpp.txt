@@ -1,6 +1,6 @@
-D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Development\AirSnooper\Definitions.AirSnooper.h
-D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Source\AirSnooper\AirSnooperPlayerController.h
-D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Inc\AirSnooper\AirSnooperPlayerController.generated.h
+C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Development\AirSnooper\Definitions.AirSnooper.h
+C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Source\AirSnooper\AirSnooperPlayerController.h
+C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Inc\AirSnooper\AirSnooperPlayerController.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\Blueprint/AIBlueprintHelperLibrary.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIBlueprintHelperLibrary.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime/Engine/Classes/Components/DecalComponent.h
@@ -11,9 +11,9 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\IIdentifiableXRDevice.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
-D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Source\AirSnooper\AirSnooperCharacter.h
+C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Source\AirSnooper\AirSnooperCharacter.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Inc\AirSnooper\AirSnooperCharacter.generated.h
+C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Inc\AirSnooper\AirSnooperCharacter.generated.h

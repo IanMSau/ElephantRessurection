@@ -1,2 +1,2 @@
-D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Development\AirSnooper\Definitions.AirSnooper.h
-D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Source\AirSnooper\AirSnooper.h
+C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Development\AirSnooper\Definitions.AirSnooper.h
+C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Source\AirSnooper\AirSnooper.h

@@ -32,8 +32,8 @@
 /wd4244
 /wd4838
 /I .
-/I D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Inc\AirSnooper
-/I D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Source
+/I C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Inc\AirSnooper
+/I C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -257,18 +257,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\AirSnooperEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\AirSnooperEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\AirSnooperEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Source\AirSnooper\AirSnooper.cpp"
-/FI"D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Development\AirSnooper\Definitions.AirSnooper.h"
-/Fo"D:\Desktop\polterheist\project\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Development\AirSnooper\AirSnooper.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\AirSnooperEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\AirSnooperEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\AirSnooperEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Source\AirSnooper\AirSnooper.cpp"
+/FI"C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Development\AirSnooper\Definitions.AirSnooper.h"
+/Fo"C:\Users\Tyler\Desktop\GMTK2020\ElephantRessurection\AirSnooper\Intermediate\Build\Win64\UE4Editor\Development\AirSnooper\AirSnooper.cpp.obj"
 /TP
 /GR-
 /W4
