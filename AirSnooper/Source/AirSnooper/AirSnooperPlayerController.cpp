@@ -10,6 +10,7 @@
 AAirSnooperPlayerController::AAirSnooperPlayerController()
 {
 	bShowMouseCursor = true;
+	underControl = true;
 	DefaultMouseCursor = EMouseCursor::Crosshairs;
 }
 
@@ -18,7 +19,7 @@ void AAirSnooperPlayerController::PlayerTick(float DeltaTime)
 	Super::PlayerTick(DeltaTime);
 
 	// keep updating the destination every tick while desired
-	if (bMoveToMouseCursor)
+	if (bMoveToMouseCursor && underControl)
 	{
 		MoveToMouseCursor();
 	}
@@ -32,7 +33,8 @@ void AAirSnooperPlayerController::SetupInputComponent()
 	InputComponent->BindAction("SetDestination", IE_Pressed, this, &AAirSnooperPlayerController::OnSetDestinationPressed);
 	InputComponent->BindAction("SetDestination", IE_Released, this, &AAirSnooperPlayerController::OnSetDestinationReleased);
 
-	// support touch devices 
+	InputComponent->BindAction("Temp", IE_Pressed, this, &AAirSnooperPlayerController::ToggleControl);
+	// support touch devices
 	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AAirSnooperPlayerController::MoveToTouchLocation);
 	InputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AAirSnooperPlayerController::MoveToTouchLocation);
 
@@ -44,29 +46,35 @@ void AAirSnooperPlayerController::OnResetVR()
 	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
 }
 
-void AAirSnooperPlayerController::MoveToMouseCursor()
+void AAirSnooperPlayerController::ToggleControl()
 {
-	if (UHeadMountedDisplayFunctionLibrary::IsHeadMountedDisplayEnabled())
+	if (underControl)
 	{
-		if (AAirSnooperCharacter* MyPawn = Cast<AAirSnooperCharacter>(GetPawn()))
-		{
-			if (MyPawn->GetCursorToWorld())
-			{
-				UAIBlueprintHelperLibrary::SimpleMoveToLocation(this, MyPawn->GetCursorToWorld()->GetComponentLocation());
-			}
-		}
+		underControl = false;
+		StopMovement();
 	}
 	else
 	{
-		// Trace to see what is under the mouse cursor
-		FHitResult Hit;
-		GetHitResultUnderCursor(ECC_Visibility, false, Hit);
+		underControl = true;
+	}
+	AAirSnooperCharacter* MyCharacter = Cast<AAirSnooperCharacter>(GetPawn());
+	if (MyCharacter)
+	{
+		MyCharacter->updateControl(underControl);
+	}
+}
 
-		if (Hit.bBlockingHit)
-		{
-			// We hit something, move there
-			SetNewMoveDestination(Hit.ImpactPoint);
-		}
+void AAirSnooperPlayerController::MoveToMouseCursor()
+{
+	
+	// Trace to see what is under the mouse cursor
+	FHitResult Hit;
+	GetHitResultUnderCursor(ECC_Visibility, false, Hit);
+
+	if (Hit.bBlockingHit)
+	{
+		// We hit something, move there
+		SetNewMoveDestination(Hit.ImpactPoint);
 	}
 }
 
@@ -81,6 +89,15 @@ void AAirSnooperPlayerController::MoveToTouchLocation(const ETouchIndex::Type Fi
 	{
 		// We hit something, move there
 		SetNewMoveDestination(HitResult.ImpactPoint);
+	}
+}
+
+void AAirSnooperPlayerController::StopMovement()
+{
+	APawn* const MyPawn = GetPawn();
+	if (MyPawn)
+	{
+		UAIBlueprintHelperLibrary::SimpleMoveToLocation(this, MyPawn->GetActorLocation());
 	}
 }
 
