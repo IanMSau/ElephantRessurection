@@ -14,6 +14,7 @@ class AAirSnooperPlayerController : public APlayerController
 public:
 	AAirSnooperPlayerController();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool underControl;
 
 protected:
@@ -31,6 +32,7 @@ protected:
 	/** Navigate player to the current mouse cursor location. */
 	void MoveToMouseCursor();
 
+	UFUNCTION(BlueprintCallable)
 	void ToggleControl();
 
 	void StopMovement();
